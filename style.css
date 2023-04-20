@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(imagens/Alix-1.jpg);
+    background-size: 100vw;
+}
+
+.divLogos {
+    background-color: #ffffff;
+    border-bottom: 2.5px solid #000000;
+    align-items: center;
+}
+
+#logoCIRS {
+    width: 75px;
+    margin-left: 7em;
+}
+
+#logoUFRN {
+    width: 130px;
+    margin-left: 4em;
+}
+
+#logoMUSEU {
+    width: 200px;
+}
+
+#logoPROEX {
+    width: 150px;
+}
+
+#logoPPGAS {
+    width: 130px;
+}
+
+.row {
+    align-items: center;
+    align-content: center;
+}
+
+.tituloTxt {
+    color: #ffffff;
+    text-align: center;
+    font-size: 3.5rem;
+    margin-top: 1.5em;
+    text-decoration: underline;
+    text-shadow: .05rem .05rem #ffffff;
+}
+
+.boxTexto {
+    margin-top: 2em;
+    background-color: rgba(255, 255, 255, 0.65);
+    width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: .2em;
+    margin-bottom: 10em;
+}
+
+.texto {
+    margin-top: 1em;
+    text-indent: 2.5rem;
+    text-decoration: solid;
+    text-shadow: .025rem .025rem #000000;
+    color: #000000;
+    align-content: center;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.linkSaberes {
+    color: #000000;
+    font-style: italic;
+}
+
+@media screen {
+
+    @media (max-width: 1470px) {
+
+        body {
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+
+    @media (max-width: 1030px) {
+
+        body {
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .divLogos {
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: row;
+            width: 63.5em;
+            height: 8em;
+        }
+
+        #logoCIRS {
+            width: 50px;
+            margin-top: 0;
+            margin-left: 0;
+        }
+        
+        #logoUFRN {
+            width: 100px;
+            margin-left: 0em;
+            margin-top: 0;
+        }
+        
+        #logoMUSEU {
+            width: 150px;
+            margin-left: 0;
+            margin-right: 0;
+            margin-top: 0;
+        }
+        
+        #logoPROEX {
+            width: 115px;
+            margin-left: 2.8em;
+            margin-top: 0em;
+        }
+        
+        #logoPPGAS {
+            width: 120px;
+            margin-left: 4.3em;
+            margin-top: 0;
+        }
+
+    }
+
+    @media (max-width: 515px) {
+
+        body {
+            background-image: none;
+            background-size: 100vh;
+        }
+
+        .boxTexto {
+            width: auto;
+            margin-bottom: .2em;
+        }
+
+     
+        .divLogos {
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: row;
+            width: auto;
+            height: 8em;
+        }
+
+        #logoCIRS {
+            width: 50px;
+            margin-top: 4.5em;
+        }
+        
+        #logoUFRN {
+            width: 80px;
+            margin-left: 4.5em;
+            margin-top: -5em;
+        }
+        
+        #logoMUSEU {
+            width: 120px;
+            margin-left: 10.5em;
+            margin-top: -8em;
+        }
+        
+        #logoPROEX {
+            width: 100px;
+            margin-left: 18em;
+            margin-top: -11em;
+        }
+        
+        #logoPPGAS {
+            width: 90px;
+            margin-left: 24.3em;
+            margin-top: -14em;
+        }
+
+        .tituloTxt {
+            color: #000000;
+            margin-top: .3em;
+        }
+
+        .divLogos {
+            border-bottom: 2px solid #000000;
+            border-radius: 0;
+        }
+
+        .boxTexto {
+            background-color: #6f865e;
+            margin-top: 0;
+            border-radius: 0;
+        }
+
+        .tituloTxt {
+            text-shadow: none;
+            color: #ffffff;
+        }
+
+        #idContainer {
+            background-color: #6f865e;
+            border-bottom: 1px solid #ffffff;
+        }
+
+        .linkSaberes {
+            color: #ffffff;
+        }
+
+    }
+
+}
